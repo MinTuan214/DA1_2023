@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Nunito&family=Pattaya&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Nunito", Arial, sans-serif;
+    background: #f9f9f9;
+    color: #565a5c;
+    font-size: 17px;
+}
+.container-hoadon{
+    max-width: 1070px;
+    margin: 0 auto;
+}
+.box-hoadon{
+    margin-top: 30px;
+}
+.nav-hoadon{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-hoadon h1, .nav-hoadon h2{
+    font-weight: 500;
+    color: #333;
+    font-style: normal;
+}
+.hr-3{
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-top: 30px;
+}
+.ten-ngay{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.ten, .ngay{
+    display: flex;
+}
+.ten span, .ngay span{
+    font-weight: 700;
+    margin-right: 10px;
+}
+.thongtincanhan{
+    display: flex;
+    margin-top: 10px;
+}
+.thongtincanhan span{
+    font-weight: 700;
+    margin-right: 10px;
+}
+.diachi{
+    text-transform: uppercase;
+}
+
+.tomtat-hoadon{
+    background-color: #fff;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+.tieude{
+    font-weight: 700;
+    color: #333;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+table{
+    border-collapse: collapse;
+    border-color: #ddd;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.thongtin{
+    width: 500px;
+}
+ td{
+    padding: 8px 10px;
+}
+th{
+    font-weight: 700;
+    padding: 8px 10px;
+}
+.tongtien{
+    border-top: 2px solid #777;
+}
+.tongchitiet{
+    font-weight: 700;
+    text-align: right;
+}
+.giachitiet{
+    font-weight: 700;
+}
